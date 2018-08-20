@@ -35,6 +35,7 @@ a {
     margin-top: 54px;
     width: 100%;
     height: 100%;
+    align-content: center !important;
 }
 
 .content-wrapper {
@@ -51,7 +52,6 @@ a {
     background-repeat: no-repeat;
     background-position: center bottom, center calc(100% - 1px);
     background-color: transparent;
-    transition: background 0s ease-out;
     float: none;
     box-shadow: none;
     border-radius: 0;
@@ -69,6 +69,9 @@ a {
     padding-left: 20px;
     margin-right: auto;
     margin-left: auto;
+}
+.center_content{
+    align-content: center;
 }
 .form-container {
     display: flex;
@@ -199,4 +202,18 @@ a {
 
 .no-padding{
     padding-left: 0px;
+}
+.footer-class{
+    text-align: center;
+    position: sticky;
+}
+.bg-mailing{
+    border: 100%;
+    height: 200px;
+}
+.stretch_bar{
+    justify-content: center;
+    width: 30%;
+    height: 20%;
+    border-radius: 0;
 }
