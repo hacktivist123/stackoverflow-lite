@@ -1,1 +1,7 @@
+env:
+  global:
+    - CC_TEST_REPORTER_ID=e0cd03d254aa5e098e572ea921eddbe2197aeaf9228bd6968fa39b4c52085e17e0cd03d254aa5e098e572ea921eddbe2197aeaf9228bd6968fa39b4c52085e17
 language: node_js
+node_js:
+  - "node"
+after_success: npm run coverage

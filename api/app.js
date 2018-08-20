@@ -17,9 +17,9 @@ app.get('/', (req, res) => {
 app.use('/api/v1', routes);
 
 app.get('/*', (req, res) => {
-  res.status(400).json({ "message": "Request not recognized" });
+  res.status(400).json('Request not recognized');
 });
 
 app.listen(port);
-console.log("server is running at", port);
+console.log('server is running at', port);
 export default app;

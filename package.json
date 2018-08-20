@@ -26,11 +26,12 @@
   },
   "homepage": "https://github.com/hacktivist123/stackoverflow-lite#readme",
   "dependencies": {
+    "babel-eslint": "^8.2.6",
     "body-parser": "^1.18.3",
+    "eslint": "^5.4.0",
     "express": "^4.16.3",
     "mocha": "^5.2.0",
-    "nodemon": "^1.18.3",
-    "eslint": "^5.4.0"
+    "nodemon": "^1.18.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
