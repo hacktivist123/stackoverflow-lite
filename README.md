@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/hacktivist123/stackoverflow-lite.svg?branch=dev)](https://travis-ci.com/hacktivist123/stackoverflow-lite)
+# stackoverflow-lite
+
 ## Project Overview
 StackOverflow-lite is a platform where people can ask questions and provide answers.
 Required Features
