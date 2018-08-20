@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/hacktivist123/stackoverflow-lite.svg?branch=dev)](https://travis-ci.com/hacktivist123/stackoverflow-lite)
 # stackoverflow-lite
 
 ## Project Overview
