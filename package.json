@@ -2,7 +2,7 @@
   "name": "stackoverflow-lite",
   "version": "1.0.0",
   "description": "Ask questions and get answers fast",
-  "main": "app.js",
+  "main": "main.js",
   "directories": {
     "test": "tests"
   },
