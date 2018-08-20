@@ -2,7 +2,7 @@
   "name": "stackoverflow-lite",
   "version": "1.0.0",
   "description": "Ask questions and get answers fast",
-  "main": "main.js",
+  "main": "app.js",
   "directories": {
     "test": "tests"
   },
@@ -18,5 +18,17 @@
   "bugs": {
     "url": "https://github.com/hacktivist123/stackoverflow-lite/issues"
   },
-  "homepage": "https://github.com/hacktivist123/stackoverflow-lite#readme"
+  "homepage": "https://github.com/hacktivist123/stackoverflow-lite#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "superset": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0"
+  }
 }
