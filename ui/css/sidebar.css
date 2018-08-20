@@ -37,11 +37,6 @@
     border-top-color: transparent;
     border-bottom: 0;
     border-right: 0;
-    -webkit-transition: all 150ms ease 0s;
-    -moz-transition: all 150ms ease 0s;
-    -o-transition: all 150ms ease 0s;
-    -ms-transition: all 150ms ease 0s;
-    transition: all 150ms ease 0s;
     /* box-shadow: 10px 0px 090px 0px rgba(0, 0, 0, 0.14), 0 1px 0px -5px rgba(156, 39, 176, 0.46); */
 }
 
