@@ -212,11 +212,25 @@ a {
     height: 200px;
 }
 .stretch_bar{
-    justify-content: center;
-    width: 30%;
-    height: 20%;
-    border-radius: 0;
+    width: 709.92px;
+    height: 44px;
+    background: #FFFFFF;
+    align-content: center;
 }
 .subscribe_class{
     align-content: center !important;
+}
+
+#subscribe_class{
+    border-radius: 20px;
+}
+#subscribe_class:active{
+    border-style: none;
+    display: inline;
+}
+#subscribe_class1{
+    width: 202px;
+    height: 34px;
+    background: #FFFFFF;
+    border-radius: 20px;
 }
