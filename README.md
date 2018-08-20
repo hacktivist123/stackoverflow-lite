@@ -19,4 +19,4 @@ answer.
 4. Users can search for questions on the platform
 5. Users can view questions with the most answers.
 
-> <a href="http://sheddynathan.me/stackoverflow-lite/ui/index.html"> Click to see project</a>
+> <a href="https://hacktivist123.github.io/stackoverflow-lite/ui/index.html"> Click to see project</a>
