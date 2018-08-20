@@ -82,7 +82,7 @@
  
 @media all and (max-width: 480px) {
     body {
-        /* background-color: red; */
+     background-color: red;
     }
     .logo, .mobi-hide {
         display: none;
