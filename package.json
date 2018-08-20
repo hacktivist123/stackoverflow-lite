@@ -1,0 +1,22 @@
+{
+  "name": "stackoverflow-lite",
+  "version": "1.0.0",
+  "description": "Ask questions and get answers fast",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacktivist123/stackoverflow-lite.git"
+  },
+  "author": "shedrack Akintayo\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001bhacktivist123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hacktivist123/stackoverflow-lite/issues"
+  },
+  "homepage": "https://github.com/hacktivist123/stackoverflow-lite#readme"
+}
