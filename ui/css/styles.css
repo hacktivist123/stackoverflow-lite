@@ -92,7 +92,7 @@ a {
 }
 
 
-textarea {
+.textarea {
     margin-top: 10px;
     /* margin-left: 50px; */
     width: 500px;
@@ -117,7 +117,7 @@ textarea {
   }
   
   
-  textarea:focus {
+  .textarea:focus {
       background: none repeat scroll 0 0 #FFFFFF;
       outline-width: 0;
   }
@@ -197,4 +197,6 @@ textarea {
     margin-bottom: 23px;
 }
 
-
+.no-padding{
+    padding-left: 0px;
+}
