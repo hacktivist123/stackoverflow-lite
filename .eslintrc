@@ -1,0 +1,13 @@
+{
+    "env": {
+      "node": true,
+      "es6": true,
+      "mocha": true
+    },
+    
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+      "no-console": "off"
+    }
+  }
