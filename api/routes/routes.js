@@ -1,6 +1,6 @@
 import express from 'express';
 
-import questionsController from '../controllers/questionsController';
+import questionsController from '../controllers/questionController';
 
 import answersController from '../controllers/answersController';
 

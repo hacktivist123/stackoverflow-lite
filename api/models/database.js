@@ -1,7 +1,7 @@
-import questionsDB from './questionsDB';
-import answersDB from './answersDB';
+import questionsDB from './questionsdb';
+import answersDB from './answersdb';
 
 export default {
   questionsDB,
-  answersDB
+  answersDB,
 };
