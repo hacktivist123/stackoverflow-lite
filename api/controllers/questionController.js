@@ -31,7 +31,7 @@ class Questions {
     
     questionsDB.push(question);
     
-    return res.status(201).json({
+    return res.status(200).json({
       "status": "Question added successfully" 
     });
   }
