@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.com/hacktivist123/stackoverflow-lite.svg?branch=master)](https://travis-ci.com/hacktivist123/stackoverflow-lite)
-
+[![Build Status](https://travis-ci.com/hacktivist123/stackoverflow-lite.svg?branch=dev)](https://travis-ci.com/hacktivist123/stackoverflow-lite)
+[![Maintainability](https://api.codeclimate.com/v1/badges/94169839cefa250d865e/maintainability)](https://codeclimate.com/github/hacktivist123/stackoverflow-lite/maintainability)
 # stackoverflow-lite
 
 ## Project Overview
@@ -19,3 +19,5 @@ answer.
 3. Users can fetch all questions he/she has ever asked on the platform
 4. Users can search for questions on the platform
 5. Users can view questions with the most answers.
+
+> <a href="https://hacktivist123.github.io/stackoverflow-lite/ui/index.html"> Click to see project</a>
