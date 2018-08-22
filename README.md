@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/hacktivist123/stackoverflow-lite.svg?branch=dev)](https://travis-ci.com/hacktivist123/stackoverflow-lite)
+[![Maintainability](https://api.codeclimate.com/v1/badges/94169839cefa250d865e/maintainability)](https://codeclimate.com/github/hacktivist123/stackoverflow-lite/maintainability)
 # stackoverflow-lite
 
 ## Project Overview
