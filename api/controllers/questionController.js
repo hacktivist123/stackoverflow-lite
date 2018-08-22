@@ -3,7 +3,6 @@ import database from '../models/database';
 const { questionsdb } = database;
 
 class Questions {
-  
   static getAllQuestions(req, res) {
     return res.send(
       questionsdb,
@@ -14,26 +13,31 @@ class Questions {
     const requestId = Number(req.params.questionId);
     
     questionsdb.forEach((question) => {
-      if (question.id === requestId){
-          return res.json({
+      if (question.id === requestId)
+        return res.json({
           question,
-     });
- };
-    return res.status(404).json('Question not found');
-  });
-}
+        });
+    });
+    return res.status(404).json({ message: 'Question not found' });
+  }
+  
   static postQuestion(req, res) {
-    const { authorId, title, content, date } = req.body;
+    const {
+      authorId, title, content, date 
+    } = req.body;
     
     const id = questionsdb[questionsdb.length - 1].id + 1;
     
-    const question = { id, authorId, title, content, date };
+    const question = {
+      id, authorId, title, content, date
+    };
     
-    questionsDB.push(question);
+    questionsdb.push(question);
     
     return res.status(200).json({
-      "status": "Question added successfully" 
+      status: 'Question added successfully',
     });
   }
+}
 
 export default Questions;
