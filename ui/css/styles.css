@@ -23,7 +23,10 @@ body {
 a {
     text-decoration: none;
 }
-
+ 
+.bring_right{
+    padding-right: 10px;
+}
 .main {
     padding: 0
 }
@@ -72,6 +75,10 @@ a {
 }
 .center_content{
     align-content: center;
+}
+.center_text{
+    text-align: center;
+    padding-right: 20px;
 }
 .form-container {
     display: flex;
